@@ -8,7 +8,23 @@ In our last post ([Part 2](https://www.linkedin.com/pulse/data-science-petroleum
 
 Typically, these network models are analyzed by viewing the built-in solver table and exporting the text data to any office application. This represents a little of an inconvenience because: (1) the results cannot be compared to other scenarios unless you take manual notes; (2) no graphical analysis can be directly performed because the application lacks plotting capabilities for the **solver** output; (3) the data that we need exported is not structured or tidy, -meaning, in no columnar format or something resembling tables or data frames. This requires time of the engineer for parsing and format the solution table in GAP to be understood by Excel or other analysis application; (4) lastly, the solutions are not saved in a historical file for future reference.
 
-All of this is fine. We cannot expect from sophisticated state-of-the-art calculation engines to be full of features to satisfy the data scientist in our production engineering office. We understand we are in a transition to an era where data analysis is king. We will get there soon. We expect that petroleum engineering software will catch up with the times over the years. In the meantime, we will handle or data analysis with **Python**, **R** or other data science tools available.
+All of this is fine. We cannot expect from sophisticated state-of-the-art calculation engines to be full of features to satisfy the **data scientist i**n our production engineering office. We understand we are in a transition to an era where data analysis is king. We will get there soon. We expect that petroleum engineering software will catch up with the times over the years. In the meantime, we will handle or data analysis with **Python**, **R** or other data science tools available.
+
+```Python
+#
+# is there a way to include Python code with this article
+"""
+Not only as pictures but in github
+
+"""
+i = 0
+class MyClass:
+    def __init__(self):
+        self.var = 1
+        
+```
+
+
 
 
 
@@ -93,6 +109,10 @@ Note that we have kept the well name as a column to identify the row or observat
 
 ## Other datasets
 
+`mention what are the other datasets that will be published`
+
+
+
 ## Basic statistics
 
 ￼
@@ -105,7 +125,7 @@ Note that we have kept the well name as a column to identify the row or observat
 
 
 
-Advanced statistics
+## Advanced statistics
 
 
 
