@@ -1,6 +1,6 @@
 
 
-# Selecting the dataset
+# 1. Selecting the network dataset
 
 
 
@@ -8,13 +8,13 @@
 
 
 
-# Load the dataset as a network object
+# 2. Loading the dataset as a network object
 
 
 
 
 
-# Show the information of the network dataset
+# 3. Show the information of the network dataset
 
 
 
@@ -32,7 +32,7 @@
 
 
 
-# Plot the network
+# 4. Plot the network
 
  Will show a plot where 
 
@@ -41,24 +41,25 @@
 * wells by completion
 
 
+* ​
 
-# Some basic statistics
-
-* High oil producers
-* Wells with the highest gas lift injection rates
-* Wells with the highest watercut
-* Well with the highest GOR
-
-# Working with the Solver dataframe
+# 5. Working with the Solver dataframe
 
 
+
+## Some basic statistics
+
+- High oil producers
+- Wells with the highest gas lift injection rates
+- Wells with the highest watercut
+- Well with the highest GOR
 
 * Plotting relationships
 * ​
 
 
 
-# Gas Lift KPIs
+# 6. Gas Lift KPIs
 
 
 
