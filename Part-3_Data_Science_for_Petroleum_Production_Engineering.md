@@ -67,8 +67,35 @@ Instinctively, we may tempted to say, after seeing the solver table, that the da
 ## Reading the variables with automation
 
 - [ ] `explain the GAP variable`
-- [ ] `show few examplesof the variables: GAP.well[0].bla-bla-bla`
+- [ ] `show few examples of the variables: GAP.well[0].bla-bla-bla`
 - [ ] `show a basic code to read the variables to a dataframe. Pseudo-code`
+
+
+
+```python
+# pseudo-code for GAP automation script with Python
+from ptech import *
+
+connect_to_openserver()
+start_gap()
+
+select_network_model()
+open_network_model()
+
+wells = NetworkModel(wells)
+
+data = list()
+for well in wells:
+    data.append(read_variables(well))
+    
+create_dataframe(data)
+shutdown_gap()
+close_openserver()
+```
+
+
+
+
 
 # Gathering auxiliary data
 
@@ -86,7 +113,7 @@ During the construction of the network model, conditions change: wells that are 
 
 What we see in *Figure 2* is a customized plot that was written using matplotlib, a Python plotting library. The variables shown are the minimal that could be shown as critical for the verification of the model. 
 
-￼`change this plot to a neutral dataset`
+￼`change this plot to a neutral dataset. Obfuscate`
 
 ![](./images/network_summary_plot.png)
 
