@@ -1,4 +1,6 @@
-**<u>Part 3: Data Science For Petroleum Production Engineers - The Well Network Dataset</u>**
+**Part 3: Data Science For Petroleum Production Engineers - The Well Network Dataset**
+
+-------------
 
 
 
@@ -12,25 +14,13 @@ In our last post ([Part 2](https://www.linkedin.com/pulse/data-science-petroleum
 - [ ] `create an email and user name for Oil Gains account in Github\`
 - [ ] `Or later, we promise to provide the links?`
 
+
+
 Typically, these network models are analyzed by viewing the results graphically and in the built-in solver table or exporting the text data to continue the comparative analysis with any office application. This represents a little of an inconvenience because: (1) the results cannot be compared to other scenarios unless you take manual notes; (2) no graphical analysis can be directly performed because the application lacks plotting capabilities for the **solver** output; (3) the data that we need exported is not structured or tidy, -meaning, lacks columnar format or something resembling tables or data frames. This requires time of the engineer for parsing and format the solution table from GAP to be understood by Excel or other analysis application; (4) lastly, the solutions are not saved in a historical file for future reference; the solutions from the solver are lost on time.
 
 In some way we have to deal with it. We cannot expect from sophisticated state-of-the-art calculation engines to be full of features to satisfy the **data scientist** in our production engineering department. We understand we are in a transition to an era of big data. We will get there soon. We expect that petroleum engineering software will catch up with the times. In the meantime, we can handle our data analysis with **Python**, **R** or other data science visualization tools available.
 
-The objective of this article is sharing an experience on applying data science to the results coming out of network modeling work on a set of oil wells. These oil wells are combination of flowing and gas lift wells; mostly gas lift wells. We are looking to optimize the production schema of the system by finding the right tubing head pressure, gas lift injection rate, gas lift injection pressure, choke size, separator pressure and others.
-
-```Python
-#
-# is there a way to include Python code with this article
-"""
-Not only as pictures but in github
-
-"""
-i = 0
-class MyClass:
-    def __init__(self):
-        self.var = 1
-        
-```
+The objective of this article is sharing an experience on applying data science to the results coming out of network modeling work on a set of oil wells. These oil wells are combination of flowing and gas lift wells; mostly gas lift wells. We are looking to optimize the production schema of the system by finding the right tubing head pressure, gas lift injection rate, gas lift injection pressure, choke size, separator pressure and others.      
 
 
 
@@ -113,17 +103,13 @@ During the construction of the network model, conditions change: wells that are 
 
 What we see in *Figure 2* is a customized plot that was written using matplotlib, a Python plotting library. The variables shown are the minimal that could be shown as critical for the verification of the model. 
 
-￼`change this plot to a neutral dataset. Obfuscate`
-
 ![](./images/network_summary_plot.png)
 
 *Figure 2 - The well network summary plot.*
 
 Each of the rectangles represent a platform. The wells in green are the ones active or producing. The well with suffix NF, GP and GL mean that that well is a natural flow well or it is a gas producer or it is a gas lift well. At the bottom of the rectangles we see the total number of strings (or wells). The letter “E” below means the number of wells that are enabled in the model, while “D” indicates how many wells were disabled in the network model.
 
-`change the plot above to something neutral`
-
-
+- [ ] change the plot above to something neutral
 
 # The KPIs dataset for Gas Lift
 
@@ -143,7 +129,7 @@ This is how the gas lift KPIs dataset looks after applying the formulas.
 
 Figure 4 - a dataset generated from the solver solution.
 
-`change figure to neutral`
+- [ ] obfuscate data.
 
 Note that we have kept the well name as a column to identify the row or observation.
 
@@ -151,13 +137,13 @@ Note that we have kept the well name as a column to identify the row or observat
 
 ## Other datasets
 
-`mention what are the other datasets that will be published`
+- [ ] mention what are the other datasets that will be published
 
 
 
 # Basic statistics
 
-￼
+￼ 
 
 ![](./images/how_many_strings.png)
 
