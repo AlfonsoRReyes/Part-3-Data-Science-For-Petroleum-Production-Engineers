@@ -54,7 +54,11 @@ Instinctively, we may tempted to say, after seeing the solver table, that the da
 -[ ] `what is the additional data?`
 
 
-## Reading the variables with automation
+## Reading the model variables with automation
+
+Reading the GAP model requires a connection to OpenServer through a COM server. There are few examples under the OpenServer folder in the IPM examples installation folder that uses Excel VBA. For simple examples, Excel is fine. For serious programming and more complex tasks it is recommended to use Python or other high level language.
+
+We show below a pseudo-code explaining the steps for reading GAP variables. Writing to GAP is similar.
 
 - [ ] `explain the GAP variable`
 - [ ] `show few examples of the variables: GAP.well[0].bla-bla-bla`
